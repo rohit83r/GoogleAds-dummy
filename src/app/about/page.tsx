@@ -3,7 +3,7 @@ export default function About() {
         <section>
             <h1>About Me</h1>
             <p>
-                I’m currently studying at DTU and working on full-stack projects using Next.js, NestJS, Docker, and PostgreSQL.
+                I am currently studying at DTU and working on full-stack projects using Next.js, NestJS, Docker, and PostgreSQL.
             </p>
         </section>
     );

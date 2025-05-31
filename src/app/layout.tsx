@@ -1,4 +1,6 @@
 import { ReactNode } from "react";
+import '../../public/styles.css'
+import Link from "next/link";
 
 export const metadata = {
     title: "Simple Portfolio",
@@ -8,15 +10,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="en">
         <head>
-            <link rel="stylesheet" href="/styles.css" />
+
         </head>
         <body>
         <header>
             <nav>
                 <div><strong>My Portfolio</strong></div>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
+                    <Link href="/">Home</Link>
+                    <Link href="/about">About</Link>
                 </ul>
             </nav>
         </header>
